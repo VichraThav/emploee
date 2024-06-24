@@ -13,21 +13,20 @@
 </head>
 <body>
 
-    <button>CCreate</button>
-
+   
     <!-- Your HTML content here -->
     <div class="container my-5">
     <form>
   <!-- Email input -->
   <div data-mdb-input-init class="form-outline mb-4">
     <input type="email" id="form2Example1" class="form-control" />
-    <label class="form-label" for="form2Example1">Email address</label>
+    <label class="form-label" for="form2Example1">First Name</label>
   </div>
 
   <!-- Password input -->
   <div data-mdb-input-init class="form-outline mb-4">
     <input type="password" id="form2Example2" class="form-control" />
-    <label class="form-label" for="form2Example2">Password</label>
+    <label class="form-label" for="form2Example2">Last Name</label>
   </div>
 
   <!-- 2 column grid layout for inline styling -->

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test');
 });
+
+
+Route::get('/test', [TestController::class, 'index'])->name('test.index'); // Example index route
+Route::post('/test/create', [TestController::class, 'create'])->name('test.create'); // Route for create method
